@@ -3,7 +3,7 @@ import { useGetUsersQuery } from './services/users';
 
 function App() {
   const { data, error, isLoading, isSuccess, isError} = useGetUsersQuery('');
-console.log(data,"hello");
+// console.log(data,"hello");
   return (
     <div className="App">
       <h1>Wellcome to React Reduk Toolkit RTK Query.</h1>
